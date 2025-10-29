@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bais City National Science High School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@500&family=Inter:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #f4fdf4;
+            color: #222;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(135deg, #2e7d32, #fdd835);
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+        header img {
+            width: 150px;
+            transition: transform 0.5s ease;
+        }
+        header img:hover {
+            transform: scale(1.1);
+        }
+        nav {
+            background: #2e7d32;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #fdd835;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+            color: #2e7d32;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .teachers ul {
+            list-style: none;
+            padding: 0;
+        }
+        .teachers li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        footer {
+            background: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #fdd835;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="p1.jpg" alt="School Logo">
+        <h1>Bais City National Science High School</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#teachers">Teachers</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Our School</h2>
+        <p><b>Bais City National Science High School</b> is a secondary public science high school located along Maria Longa Drive, Bais City, Negros Oriental. It is situated near the Bais City Fire Station and the LTO Bais District Office. The school is committed to providing quality education, fostering creativity, and shaping students into future leaders who are equipped with knowledge, skills, and values for lifelong success.</p>
+        <p>Dedicated to nurturing excellence, the school offers learners opportunities to go beyond the regular curriculum. One of its highlights is the annual Research Congress, participated in by students from Grades 9, 10, and 12. This activity allows students to showcase their research outputs, sharpening their academic foundation while cultivating critical thinking, creativity, and innovation.</p>
+        <p>Beyond academics, Bais City National Science High School also takes pride in its <b>School Band</b>—a group of talented and passionate student musicians who embody discipline, teamwork, and artistry. Over the years, the band has earned recognition by consistently winning championship titles in various competitions. Their harmonious blend of music and commitment to excellence has made them a symbol of pride not only within the school but also in the community.</p>
+        <p>Through every performance, whether in school events, parades, or contests, the School Band uplifts the spirit of the school community. They do not only entertain but also inspire, representing the values of perseverance, unity, and passion. Truly, they stand as champions—not only in music but also in heart and spirit.</p>
+    </section>
+
+    <section id="features">
+        <h2>School Features</h2>
+        <p><i>Every year, we hold a Research Congress where students from Grades 9, 10, and 12 actively participate, showcasing their studies and discoveries. This strengthens their academic foundation while developing critical thinking, creativity, and innovation.</i></p>
+        <p>Visit the official <a href="https://www.facebook.com/BASCIAN" target="_blank">Bais City National Science High School Facebook Page</a> for more information.</p>
+    </section>
+
+    <section id="teachers" class="teachers">
+        <h2>Our Teachers</h2>
+        <ul>
+            <li>👩‍🏫 Dr. Groselie B. Ragay – Principal 1</li>
+            <li>👨‍🏫 Mr. Ronald C. Canillo – Master Teacher II, Science Teacher</li>
+            <li>👩‍🏫 Mrs. Jagirline M. Yongco – Teacher III/JHS Academic Coordinator</li>
+            <li>👨‍🏫 Mr. Carmelo A. Jamito Jr. – Teacher III, Science Teacher</li>
+            <li>👩‍🏫 Mrs. Amylene A. Babor – English Teacher</li>
+            <li>👩‍🏫 Ms. Mary Joy P. Piella – Science Teacher</li>
+            <li>👩‍🏫 Mrs. Eva Chandrina P. Torregoza – Filipino Teacher</li>
+            <li>👨‍🏫 Mrs. Joanna Mae A. Tosoy – English Teacher</li>
+            <li>👩‍🏫 Ms. Avegail C. Sanoy – Science Teacher</li>
+            <li>👩‍🏫 Mr. John Jay E. Villacampa – AP Teacher</li>
+            <li>👨‍🏫 Mr. Willy B. Jaluag – Math Teacher</li>
+            <li>👩‍🏫 Mrs. Jonna Fe Marie T. Suminguit – SHS Academic Coordinator</li>
+            <li>👨‍🏫 Ms. Hannah Mae C. Jacosalem – Grade 12 Favila Adviser</li>
+            <li>👩‍🏫 Mr. Dave A. Sedigo – English Teacher</li>
+            <li>👩‍🏫 Mr. Eric E. Golez – ICT Teacher</li>
+            <li>👨‍🏫 Mr. Agripino A. Adana – Math Teacher</li>
+            <li>👩‍🏫 Mr. Joe Val B. Cadimas – ICT Teacher</li>
+            <li>👩‍🏫 Mr. John Michael Vincent M. Adriatico – PE Teacher</li>
+            <li>👩‍🏫 Ms. Kristel Rodriguez – Grade 12 Vergara Adviser</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="p2.jpg" alt="Teachers Photo">
+            <img src="p3.jpg" alt="Research Congress 1">
+            <img src="492062553_1204130055051266_1753393809561114675_n.jpg" alt="Research Congress 2">
+            <img src="p4.jpg" alt="Research Congress 3">
+            <img src="p5.jpg" alt="Research Congress 4">
+            <img src="p6.jpg" alt="Research Congress 5">
+            <img src="p11.jpg" alt="Banda de Marcha">
+            <img src="p9.jpg" alt="Teachers Group">
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>© 2024 Bais City National Science High School</p>
+        <p>📧 Email: <a href="mailto:bcnshs@gmail.com">bcnshs@gmail.com</a></p>
+        <p>📞 Phone: <a href="tel:09369876543">0936-987-6543</a></p>
+        <p>Visit us on <a href="https://www.facebook.com/BASCIAN" target="_blank">Facebook</a></p>
+    </footer>
+</body>
+</html>
